@@ -35,14 +35,17 @@ variable "ingress_from_port" {
 }
 
 variable "ingress_to_port" {
+    type = number
     default = 0
 }
 
 variable "egress_from_port" {
+    type = number
     default = 0
 }
 
 variable "egress_to_port" {
+    type = number
     default = 0
 }
 
