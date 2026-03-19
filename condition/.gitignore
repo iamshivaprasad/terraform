@@ -1,0 +1,101 @@
+############################################
+# Terraform
+############################################
+
+# Local .terraform directories
+**/.terraform/*
+.terraform.lock.hcl
+
+# Terraform state files (VERY IMPORTANT)
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files (often contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+
+############################################
+# AWS-Specific
+############################################
+
+# AWS credentials & config
+.aws/
+aws-credentials
+credentials
+config
+
+# SSH keys (EC2 access)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Elastic Beanstalk
+.elasticbeanstalk/
+
+# SAM / Serverless
+.aws-sam/
+.sam/
+.serverless/
+
+# CloudFormation artifacts
+packaged.yaml
+output.yaml
+
+# Lambda build artifacts
+lambda.zip
+*.zip
+
+# S3 sync / deploy artifacts
+*.tar.gz
+
+# AWS CDK (if mixed usage)
+cdk.out/
+
+
+############################################
+# Environment & Secrets
+############################################
+
+.env
+.env.*
+secrets.auto.tfvars
+*.auto.tfvars
+
+
+############################################
+# Editor / OS
+############################################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+
+############################################
+# Logs
+############################################
+
+*.log
