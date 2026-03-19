@@ -13,7 +13,7 @@ variable "ec2_tags" {
     default = {
         Name = "terraform-demo"
         Terraform = "true"
-        Project = "joindevops"
+        Project = "DevOps"
         Environment = "dev"
     }
 }
